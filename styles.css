@@ -35,8 +35,8 @@
 }
 
 body {
-  background: #18233c;
-  color: #f5f5f5;
+  background: #0f1626;
+  color: #ffffff;
   font-family: "Calibre Regular", Arial, Helvetica, sans-serif;
   font-size: 20px;
   line-height: 1.3;
@@ -44,22 +44,22 @@ body {
 
 a {
   text-decoration: none;
-  color: #ff533d;
+  color: #f92a82;
   position: relative;
 }
 
 a:hover {
-  color: #ff533d;
+  color: #f92a82;
   cursor: pointer;
 }
 
 ::-moz-selection {
-  background-color: #ff533d;
+  background-color: #f92a82;
   color: #f5f5f5;
 }
 
 ::selection {
-  background-color: #ff533d;
+  background-color: #f92a82;
   color: #f5f5f5;
 }
 
@@ -70,7 +70,7 @@ a:hover {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #ff533d;
+  background-color: #f92a82;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -94,19 +94,19 @@ a:hover {
 .section-number {
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #ff533d;
+  color: #f92a82;
 }
 
 button {
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
-  border: 1px solid #ff533d;
+  border: 1px solid #f92a82;
   border-radius: 5px;
-  color: #ff533d;
+  color: #f92a82;
   background: none;
 }
 
 button:hover {
-  background: #ff533d;
+  background: #f92a82;
   color: #f5f5f5;
   cursor: pointer;
 }
@@ -120,7 +120,7 @@ svg {
 }
 
 svg :hover {
-  fill: #ff533d;
+  fill: #f92a82;
 }
 
 .ease-transition {
@@ -140,8 +140,8 @@ nav {
   background: inherit;
   position: fixed;
   width: 100%;
-  background: #18233c;
-  box-shadow: rgb(9, 21, 49) 0px 10px 30px -10px;
+  background: #22223b;
+  /* box-shadow: rgb(9, 21, 49) 0px 10px 30px -10px; */
   z-index: 100;
 }
 
@@ -156,8 +156,8 @@ nav {
   padding: 7px 10px;
   width: 20px;
   text-align: center;
-  border: 1px solid #ff533d;
-  color: #ff533d;
+  border: 1px solid #f92a82;
+  color: #f92a82;
 }
 
 .navLink {
@@ -246,7 +246,7 @@ aside nav {
 }
 
 .mobile-nav-section-numbers {
-  color: #ff533d;
+  color: #f92a82;
   font-size: 14px;
   margin-bottom: 5px;
   display: block;
@@ -259,9 +259,9 @@ aside nav {
 
 .mobile-nav-button {
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
-  border: 1px solid #ff533d;
+  border: 1px solid #f92a82;
   border-radius: 5px;
-  color: #ff533d;
+  color: #f92a82;
   background: none;
   padding: 1.25rem 2rem;
   font-size: 13px;
@@ -285,12 +285,14 @@ aside nav {
 
 #hero-pre-text {
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
-  color: #ff533d;
+  color: #f92a82;
   font-size: 16px;
   padding-bottom: 30px;
+  margin-top: 6em;
 }
 
 .hero-header-text {
+  color: #ffffff;
   font-family: "Calibre Semibold", Arial, Helvetica, sans-serif;
   font-size: 80px;
   font-weight: 500;
@@ -301,13 +303,13 @@ aside nav {
 }
 
 #hero-tagline {
-  color: #bfb099;
+  color: #edafb8;
   padding-bottom: 10px;
 }
 
 #subheader-text {
   font-size: 20px;
-  color: #bfb099;
+  color: #ffffff;
   width: 48%;
   padding-bottom: 60px;
 }
@@ -371,7 +373,7 @@ aside nav {
 
 .tech-skills-list li::before {
   content: "⦿";
-  color: #ff533d;
+  color: #f92a82;
   position: relative;
   padding: 0 10px 0 0;
   font-size: 13px;
@@ -386,7 +388,7 @@ aside nav {
 }
 
 .at-symbol {
-  color: #ff533d;
+  color: #f92a82;
 }
 
 .jobDateRange {
@@ -423,7 +425,7 @@ aside nav {
   content: "⦿";
   position: absolute;
   left: 0px;
-  color: #ff533d;
+  color: #f92a82;
 }
 
 .job-button {
@@ -437,8 +439,8 @@ aside nav {
 }
 
 .job-button-selected {
-  color: #ff533d;
-  border-left: 1px solid #ff533d;
+  color: #f92a82;
+  border-left: 1px solid #f92a82;
   border-radius: 0;
 }
 
@@ -528,7 +530,7 @@ aside nav {
 }
 
 .feature-text {
-  color: #ff533d;
+  color: #f92a82;
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   font-size: 14px;
   padding-bottom: 10px;
@@ -547,7 +549,7 @@ aside nav {
 }
 
 .project-title a:hover {
-  color: #ff533d;
+  color: #f92a82;
 }
 
 .project-title-small {
@@ -629,7 +631,7 @@ aside nav {
   font-size: 16px;
   font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
   padding-bottom: 30px;
-  color: #ff533d;
+  color: #f92a82;
 }
 
 .contact-headline {
@@ -730,16 +732,12 @@ footer a {
 
 #email-fixed-bar-container a:hover {
   transform: translateY(-3px);
-  color: #ff533d;
+  color: #f92a82;
   text-decoration: none;
 }
 
 .social-icon :hover {
   transform: translateY(-3px);
-}
-
-.red-heart {
-  color: red;
 }
 
 /* Tablet Breakpoint */
@@ -844,7 +842,7 @@ footer a {
 
   button:hover {
     background: none;
-    color: #ff533d;
+    color: #f92a82;
   }
 
   #jobList :hover {
@@ -906,10 +904,6 @@ footer a {
 
   .technology-list {
     display: flex;
-  }
-
-  .red-heart {
-    color: red;
   }
 }
 
@@ -980,7 +974,7 @@ footer a {
     font-size: 14px;
     font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
-    color: #ff533d;
+    color: #f92a82;
   }
 
   #experience-content {
@@ -1016,9 +1010,9 @@ footer a {
   }
 
   .job-button-selected {
-    color: #ff533d;
+    color: #f92a82;
     border-left: none;
-    border-bottom: 1px solid #ff533d;
+    border-bottom: 1px solid #f92a82;
     border-radius: 0;
   }
 
@@ -1041,10 +1035,6 @@ footer a {
   .feature-text {
     font-size: 12px;
   }
-
-  .red-heart {
-    color: red;
-  }
 }
 
 @media screen and (max-width: 500px) {
@@ -1055,9 +1045,5 @@ footer a {
 
   #hero-section {
     padding-top: 80px;
-  }
-
-  .red-heart {
-    color: red;
   }
 }

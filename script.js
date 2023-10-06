@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
       companyName: "Zuri HNG",
       companyURL: "https://www.zuri.team/programs/hng/home",
       title: "Front-End Intern",
-      dateRange: "Septemper 2023 - Present",
+      dateRange: "Aug 2023 - Sept 2023",
       jobDetails: ["On-hands training as a real-world front-end developer in an intense peer remote environment.",
         "Building practical projects using various web development technologies.",
         "Devloping interpersonal skills, presentation skills, problem-solving and time management skills."],
@@ -13,7 +13,7 @@ window.addEventListener("load", function () {
       companyName: "Microverse",
       companyURL: "https://www.microverse.org/",
       title: "Student Mentor Volunteer",
-      dateRange: "April 2023 - August 2023",
+      dateRange: "Apr 2023 - Aug 2023",
       jobDetails: [
         "Provided guidance and motivation to new students, fostering confidence and success.",
         "Collaborated with program staff to identify and address students' needs.",
@@ -25,7 +25,7 @@ window.addEventListener("load", function () {
       companyName: "Throne of Gold Beauty Salon",
       companyURL: "https://",
       title: "Hairstylist",
-      dateRange: "November 2020 - August 2022",
+      dateRange: "Nov 2020 - August 2022",
       jobDetails: [
         "During my time as a hairdresser, which lasted for nearly two years, I developed an exceptional eye for detail. Whether I was perfecting intricate hairstyles or creating personalized looks, I thrived on the importance of getting things just right. These qualities have seamlessly carried over into my journey as a web developer, where I apply the same meticulous approach to writing clean, error-free code and ensuring seamless user experiences.",
         "Creativity has always been the driving force behind my work. As a hair stylist, I embraced the opportunity to turn my clients' visions into reality. This same creativity now fuels my passion for web development, allowing me to design visually captivating websites that make a lasting impression on users.",
